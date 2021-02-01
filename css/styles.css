@@ -1,0 +1,219 @@
+body {
+    background-image: linear-gradient(#210021, #d8ffff);
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 3% 0;
+    text-align: center;
+    color: #ffff;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    padding: 2% 0 0 2%;
+}
+
+a {
+    font-size: 1.2rem;
+    text-align: center !important;
+    color: rgb(0, 255, 200);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+table th {
+    font-size: 120%;
+}
+
+.space-car1 {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    width: 20%;
+}
+
+.space-car {
+    position: absolute;
+    right: 17%;
+    width: 15%;
+    top: 2%;
+}
+
+.top-container {
+    position: sticky;
+    height: 750px;
+    margin-bottom: 10%;
+    z-index: +1;
+}
+
+.info1 {
+    position: relative;
+    font-size: 3rem;
+    margin: 0 auto;
+    top: 10%;
+    color: rgb(0, 255, 200);
+}
+
+.info2 {
+    position: relative;
+    font-size: 3rem;
+    margin: 0 auto;
+    top: 5%;
+    color: rgb(0, 255, 200);
+}
+
+.boy {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    bottom: 0.1%;
+}
+
+.sun {
+    width: 29%;
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+}
+
+.book {
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+}
+
+.table-size {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    line-height: 3rem;
+}
+
+.middle-container {
+    padding-bottom: 6%;
+}
+
+.info {
+    float: right;
+    padding: 2%;
+    font-size: 1.2rem;
+    color: #ffff;
+}
+
+.village-img {
+    width: 65%;
+    margin-left: 18%;
+    padding-top: 10%;
+}
+
+.footer-text {
+    color: #120f12;
+    text-align: center;
+    padding-top: 10%;
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .space-car1 {
+        position: absolute;
+        top: 2%;
+        left: 22%;
+        width: 18%;
+    }
+    .space-car {
+        position: absolute;
+        right: 27%;
+        width: 15%;
+        top: 2%;
+    }
+    a {
+        font-size: 0.9rem;
+        text-align: center !important;
+        color: rgb(94, 255, 220);
+    }
+    .info1 {
+        position: relative;
+        font-size: 3rem;
+        margin: 0 auto;
+        top: 22%;
+    }
+    .info2 {
+        position: relative;
+        font-size: 3rem;
+        margin: 0 auto;
+        top: 22%;
+    }
+    .boy {
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        bottom: -12%;
+    }
+    .sun {
+        width: 29%;
+        position: absolute;
+        bottom: 17%;
+        left: 3%;
+    }
+    .book {
+        width: 25%;
+        position: absolute;
+        bottom: 18%;
+        right: 4%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .space-car1 {
+        position: absolute;
+        top: 2%;
+        left: 20%;
+        width: 20%;
+    }
+    .space-car {
+        position: absolute;
+        right: 24%;
+        width: 15%;
+        top: 2%;
+    }
+    a {
+        font-size: 0.9rem;
+        text-align: center !important;
+        color: rgb(94, 255, 220);
+    }
+    .info1 {
+        position: relative;
+        font-size: 3rem;
+        margin: 0 auto;
+        top: 22%;
+    }
+    .info2 {
+        position: relative;
+        font-size: 3rem;
+        margin: 0 auto;
+        top: 22%;
+    }
+    .boy {
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        bottom: -8%;
+    }
+    .sun {
+        width: 29%;
+        position: absolute;
+        bottom: 17%;
+        left: 3%;
+    }
+    .book {
+        width: 25%;
+        position: absolute;
+        bottom: 18%;
+        right: 4%;
+    }
+}
